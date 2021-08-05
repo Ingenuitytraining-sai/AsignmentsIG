@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Snake Game</title>
+        <style>
+            canvas{
+                display: block;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+            button{
+                position: absolute;
+                left: 800px;
+                top: 25px;
+                padding: 5px;
+                background-color:yellow;
+            }
+
+            button:hover{
+                background-color:orange;
+            }
+
+            button:focus{
+                background-color:red;
+            }
+            
+        </style>
+    </head>
+    <canvas id="snake" width="610" height="610"></canvas>
+    <script src="snake.js">
+    </script>
+    <button type="submit" onClick="refreshPage()">Restart</button>
+</html>
